@@ -2,40 +2,39 @@
 
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=lijy91%40live.com&currency_code=USD&source=url)
 
-English | [简体中文](./README.zh_CN.md)
+[English](./README.md) | 简体中文
 
-## Introduction
+## 简介
 
-Flutter Debugger is a standalone app for debugging Flutter apps, Based on [Flipper](https://github.com/facebook/flipper) (Extensible mobile app debugger) and provide more functionally.
+Flutter Debugger 是一个用于调试 Flutter 应用的独立应用程序，基于 [Flipper](https://github.com/facebook/flipper)（可扩展的移动应用调试器）并提供更多功能。
 
-### Features
+### 特性
 
-* Network inspector
-* Shared preferences (and UserDefaults) inspector
-* Redux inspector
-* Database Browser
+* 网络检查器
+* 状态检查器
+* 数据库浏览器
 
-## Quick Start
+## 快速开始
 
-### Installation
+### 安装
 
-To install the app, you can download a prebuilt binary from the [release page](https://github.com/blankapp/flutter-debugger/releases).
+要安装该应用，您可以从[发布页面](https://github.com/blankapp/flutter-debugger/releases)下载预构建的二进制文件。
 
-For `macOS`, you can use `Homebrew Cask` to install:
+对于 `macOS`，您可以使用 `Homebrew Cask` 来安装：
 
 ```text
 $ brew update && brew cask install flutter-debugger
 ```
 
-Place `Flutter Debugger.app` in the `/Applications` folder.
+请将 `Flutter Debugger.app` 放在 `/Applications` 文件夹中。
 
-## Discussion
+## 探讨
 
-If you have any suggestions or questions about this project, you can discuss it by [Telegram Group](https://t.me/flutterdebugger) or my wechat.
+如果您对此项目有任何建议或疑问，可以通过 [Telegram Group](https://t.me/flutterdebugger) 或我的微信进行讨论。
 
 ![](http://blankapp.org/assets/images/wechat_qrcode.png)
 
-## License
+## 许可证
 
 ```text
 MIT License
