@@ -60,7 +60,7 @@ function buildDist(buildFolder) {
   if (process.argv.indexOf('--mac') > -1) {
     targetsRaw.push(Platform.MAC.createTarget(['dir']));
     postBuildCallbacks.push(() =>
-      cp.spawn('zip', ['-yr9', '../Flipper-mac.zip', 'Flipper.app'], {
+      cp.spawn('zip', ['-yr9', '../FlutterDebugger-mac.zip', 'Flutter Debugger.app'], {
         cwd: path.join(__dirname, '..', 'dist', 'mac'),
       }),
     );

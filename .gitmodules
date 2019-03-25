@@ -1,0 +1,6 @@
+[submodule "src/plugins/flipper-plugin-dbbrowser"]
+	path = src/plugins/flipper-plugin-dbbrowser
+	url = git@github.com:blankapp/flipper-plugin-dbbrowser.git
+[submodule "src/plugins/flipper-plugin-reduxinspector"]
+	path = src/plugins/flipper-plugin-reduxinspector
+	url = git@github.com:blankapp/flipper-plugin-reduxinspector.git

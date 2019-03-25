@@ -1,17 +1,22 @@
 # Flutter Debugger (Based on Flipper)
 
+![](static/icon.png)
+
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=lijy91%40live.com&currency_code=USD&source=url)
 
 [English](./README.md) | 简体中文
 
 ## 简介
 
-Flutter Debugger 是一个用于调试 Flutter 应用的独立应用程序，基于 [Flipper](https://github.com/facebook/flipper)（可扩展的移动应用调试器）并提供更多功能。
+*Flutter Debugger 是一个用于调试 Flutter 应用的独立应用程序，基于 [Flipper](https://github.com/facebook/flipper)（可扩展的移动应用调试器）并提供更多功能。*
+
+浏览 [flutter-debugger.blankapp.org](http://flutter-debugger.blankapp.org/) 上的文档。
 
 ### 特性
 
 * 网络检查器
 * 状态检查器
+* Redux 检查器
 * 数据库浏览器
 
 ## 快速开始
@@ -20,13 +25,19 @@ Flutter Debugger 是一个用于调试 Flutter 应用的独立应用程序，基
 
 要安装该应用，您可以从[发布页面](https://github.com/blankapp/flutter-debugger/releases)下载预构建的二进制文件。
 
-对于 `macOS`，您可以使用 `Homebrew Cask` 来安装：
+### 集成
 
-```text
-$ brew update && brew cask install flutter-debugger
-```
+在安装好 Flutter Debugger 后，集成 [flutter_flipperkit](https://github.com/blankapp/flutter_flipperkit) 到你的项目后即可通过它来调试你的应用了。
 
-请将 `Flutter Debugger.app` 放在 `/Applications` 文件夹中。
+## 相关链接
+
+- https://github.com/blankapp/flutter_flipperkit
+- https://github.com/blankapp/flutter_flipperkit_plugins
+- https://github.com/blankapp/flutter-debugger
+- https://github.com/blankapp/flutter-debugger-docs
+- https://github.com/blankapp/flutter-debugger-examples
+- https://github.com/blankapp/flipper-plugin-dbbrowser
+- https://github.com/blankapp/flipper-plugin-reduxinspector
 
 ## 探讨
 

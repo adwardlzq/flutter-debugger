@@ -1,12 +1,16 @@
 # Flutter Debugger (Based on Flipper)
 
+![](static/icon.png)
+
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=lijy91%40live.com&currency_code=USD&source=url)
 
 English | [简体中文](./README.zh_CN.md)
 
 ## Introduction
 
-Flutter Debugger is a standalone app for debugging Flutter apps, Based on [Flipper](https://github.com/facebook/flipper) (Extensible mobile app debugger) and provide more functionally.
+*Flutter Debugger is a standalone app for debugging Flutter apps, Based on [Flipper](https://github.com/facebook/flipper) (Extensible mobile app debugger) and provide more functionally.*
+
+Browse the docs on [flutter-debugger.blankapp.org](https://flutter-debugger.blankapp.org/).
 
 ### Features
 
@@ -21,13 +25,19 @@ Flutter Debugger is a standalone app for debugging Flutter apps, Based on [Flipp
 
 To install the app, you can download a prebuilt binary from the [release page](https://github.com/blankapp/flutter-debugger/releases).
 
-For `macOS`, you can use `Homebrew Cask` to install:
+### Integrations
 
-```text
-$ brew update && brew cask install flutter-debugger
-```
+After installing the Flutter Debugger, integrate [flutter_flipperkit](https://github.com/blankapp/flutter_flipperkit) into your project to debug your application.
 
-Place `Flutter Debugger.app` in the `/Applications` folder.
+## Related Links
+
+- https://github.com/blankapp/flutter_flipperkit
+- https://github.com/blankapp/flutter_flipperkit_plugins
+- https://github.com/blankapp/flutter-debugger
+- https://github.com/blankapp/flutter-debugger-docs
+- https://github.com/blankapp/flutter-debugger-examples
+- https://github.com/blankapp/flipper-plugin-dbbrowser
+- https://github.com/blankapp/flipper-plugin-reduxinspector
 
 ## Discussion
 

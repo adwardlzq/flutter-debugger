@@ -1,19 +1,18 @@
 {
   "name": "flipper",
-  "private": true,
-  "version": "0.18.0",
-  "versionDate": "2018-4-12",
+  "version": "0.0.1",
+  "versionDate": "2019-3-25",
   "description": "Mobile development tool",
-  "productName": "Flipper",
-  "author": "Facebook Inc",
+  "productName": "Flutter Debugger",
+  "author": "JianyingLi<lijy91@foxmail.com>",
   "main": "src/index.js",
   "icon": "icon.png",
   "category": "facebook-intern",
   "privileged": true,
   "build": {
     "appId": "flipper",
-    "productName": "Flipper",
-    "artifactName": "Flipper-${os}.${ext}",
+    "productName": "Flutter Debugger",
+    "artifactName": "FlutterDebugger-${os}.${ext}",
     "mac": {
       "category": "public.app-category.developer-tools",
       "extendInfo": {
@@ -21,7 +20,7 @@
       }
     },
     "win": {
-      "publisherName": "Facebook, Inc."
+      "publisherName": "JianyingLi<lijy91@foxmail.com>"
     },
     "asar": false,
     "fileAssociations": [
